@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/inputnombre"
+            android:id="@+id/inputnombre"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/nombre"
+            android:hint="Nombres"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/apellido"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/apellido"
+            android:hint="Apellidos"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessage"
+            android:text="@string/registrar">
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

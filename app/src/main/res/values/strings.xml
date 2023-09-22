@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Patio de juegos</string>
+    <string name="inputnombre">Ingresa el nombre:</string>
+    <string name="apellido">Ingresa los apellidos:</string>
+    <string name="registrar">Registrarse</string>
+    <string name="innombre">Nombre ingresado:</string>
+    <string name="inapellido">Apellidos ingresados:</string>
+</resources>
