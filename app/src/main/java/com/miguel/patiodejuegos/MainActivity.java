@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Nombre=findViewById(R.id.nombre);
         Apellido=findViewById(R.id.apellido);
+        Registrar=findViewById(R.id.registrar);
 
         Registrar.setOnClickListener(new View.OnClickListener() {
             @Override

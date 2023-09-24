@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class resultado extends AppCompatActivity {
 
-    String nombre, apellido;
+    String nnombre, aapellido;
     TextView name, surname;
 
     @Override
@@ -21,10 +21,10 @@ public class resultado extends AppCompatActivity {
 
         Intent recibir_datos=getIntent();
 
-        nombre=recibir_datos.getStringExtra("nombre_recibido");
-        apellido=recibir_datos.getStringExtra("recapellido");
+        nnombre=recibir_datos.getStringExtra("nombre");
+        aapellido=recibir_datos.getStringExtra("apellido");
 
-        name.setText(nombre);
-        surname.setText(apellido);
+        name.setText(nnombre);
+        surname.setText(aapellido);
     }
 }
